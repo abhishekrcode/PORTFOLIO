@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');  
+body{
+    /* background-color: rgb(219, 153, 67); */
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    font-family: 'Blaka', cursive;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+nav ul li{
+    padding:0 14px; 
+}
+.brand img{
+width: 40px;
+padding-right: 10px;
+}
+.brand{
+    display:flex;
+align-items: center;
+
+font-size: 1.5em;
+}
+.container{
+    background-size:cover;
+    background-color: black;
+    min-height:70vh;
+    color:white;
+    
+
+
+
+}
+.bottom{
+    position: sticky;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80%;
+    cursor: pointer;
+    
+}
+.icons{
+    cursor: pointer;
+}

@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');  
+body{
+    background-color: rgb(105, 98, 89);
+}
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+nav{
+    font-family: 'Blaka', cursive;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+nav ul li{
+    padding:0 14px; 
+}
+.brand img{
+width: 40px;
+padding-right: 10px;
+}
+.brand{
+    display:flex;
+align-items: center;
+
+font-size: 1.5em;
+}
+.container{
+    font-family: 'Blaka', cursive;
+    background-image:url(R.jpg);
+
+    background-size: cover;
+    
+
+    /* background-color: black; */
+    height:70vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 30px;
+    border-radius: 20px;
+    font-size: 1em;
+
+    
+   
+
+
+}
+.container h1{
+    transform: translate(70px);
+}
+
+
+.songList{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-top: 20px;
+  background-color: antiquewhite;
+  color: black;
+  width: 30%;
+  height: 30px;
+ display: flex;
+ justify-content: space-around;
+ 
+ align-items: center;
+  border-radius: 30px;
+  transform: translate(70px);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-weight: bold;
+
+  
+  
+   
+}
+.songList img{
+    border-radius:20px;
+}
+
+#masterPlay:hover{
+   cursor: pointer;
+}
+.songlistplay{
+    font-size: 10px;
+    margin-top: 2px;
+     margin-left: 30px;
+   
+}
+
+.songList img:hover{
+    cursor: pointer;
+}
+
+
+
+.bottom{
+    position: sticky;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+   
+    width: 80vw;
+    cursor: pointer;
+    margin-top: -20px;
+    
+}
+.icons {
+    width:20%;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+
+    
+    
+
+}
+.beats{
+
+
+   position: absolute;
+   left:10vw;
+   bottom: 20px;
+   font-family:'Blaka', cursive; 
+   align-items: baseline;
+
+
+}
+.beats img{
+    position: relative;
+    opacity:0;
+    transition: opacity 0.5s ease-in;
+    top:3px
+    
+    
+   
+}
+#mastersongname{
+    font-family: fantasy;
+    
+}
